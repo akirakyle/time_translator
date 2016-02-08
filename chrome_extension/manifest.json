@@ -4,7 +4,7 @@
     "description": "translate text back in time",
     "version": "0.1",
     "content_scripts": [{
-        "js": [ "jquery.js", "content.js" ],
+        "js": [ "jquery-2.2.0.min.js", "content.js" ],
         "matches": [ "http://*/*", "https://*/*" ],
         "run_at": "document_end"
     }]
